@@ -3,9 +3,12 @@
 
 import os
 import sys
+import socket
 import xmlrpc.client
 
-s = xmlrpc.client.ServerProxy('http://192.168.1.17:9000')
+ip_port = 9000
+ip_address = socket.gethostbyname(socket.gethostname())
+s = xmlrpc.client.ServerProxy(f'http://{ip_address}:{ip_port}')
 # Call inventory:
 for func in s.system.listMethods():
     print("RPC:", func)
@@ -13,4 +16,5 @@ for func in s.system.listMethods():
 # Call our function:
 prog = sys.argv[0].split(os.sep)[-1]
 print(s.SayHello(prog))
+
 

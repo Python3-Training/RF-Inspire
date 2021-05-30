@@ -10,7 +10,7 @@ class zHan(SimpleXMLRPCRequestHandler):
     rpc_paths = ('/RPC2',) # default
 
 ip_port = 9000
-ip_address = '192.168.1.17' # socket.gethostbyname(socket.gethostname())
+ip_address = socket.gethostbyname(socket.gethostname())
 
 print("Server:", ip_address, "@", ip_port)
 
