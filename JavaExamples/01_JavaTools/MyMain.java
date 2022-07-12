@@ -4,5 +4,6 @@ class MyMain {
 		for (String val : args) {
 			System.out.println("Got: " + val);
 		}
+	System.exit(0); // Best to be explicit here ...
 	}
 }
