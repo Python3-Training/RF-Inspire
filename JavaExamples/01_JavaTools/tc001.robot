@@ -15,7 +15,7 @@
 |               | [Arguments] 	      | ${PARAMS}
 |		| LOG TO CONSOLE      | Testing Java ${PARAMS} ...
 |		| ${EXIT_CODE}	      | Run Process	| java | ${PARAMS}
-|		| Should Be Equal As Integers | ${EXIT_CODE.rc} | 0 
+|		| Should Be Equal     | ${EXIT_CODE.rc} | ${0} 
 |		| Set Global Variable | ${RUN_TYPE} | 'DONE' |
 | *** Test Cases ***
 | First Test	| [Documentation]     | Tracking build state.
