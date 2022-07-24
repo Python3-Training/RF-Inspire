@@ -1,0 +1,3 @@
+2022/07/24: 03.14.59 (LOCAL)	jar cf apath.jar APath\ClassA.class APath\ClassB.class
+2022/07/24: 03.16.01 (LOCAL)	java -classpath ./apath.jar APath.ClassA
+2022/07/24: 03.17.20 (LOCAL)	java APath.ClassA
