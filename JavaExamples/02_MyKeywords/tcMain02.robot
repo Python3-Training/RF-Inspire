@@ -1,6 +1,6 @@
 # Be sure that both `java` and `javac` can be run from your CLI.
 | *** Settings ***
-| Documentation	| Re-usng previous concepts
+| Documentation	| Re-using previous concepts
 | Resource      | ${CURDIR}/JavaKeywords.resource |
 | *** Test Cases ***
 | TEST CASE 02	| [Documentation]     | Java artifact creation & testing ][
