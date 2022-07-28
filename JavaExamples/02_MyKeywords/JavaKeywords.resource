@@ -8,7 +8,6 @@
 |		| LOG TO CONSOLE      | STEP: Compiling Java @{PARAMS} ...
 |		| ${EXIT_CODE}	      | Run Process	 | javac | @{PARAMS}
 |		| [return]	      | ${EXIT_CODE.rc}
-|		| Set Global Variable | ${RUN_TYPE} | 'TEST' |
 | Test Java	| [Documentation]     | Test Java - file name & parameter
 |               | [Arguments] 	      | @{PARAMS}
 |		| LOG TO CONSOLE      | STEP: Testing Java @{PARAMS} ...
