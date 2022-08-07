@@ -1,3 +1,5 @@
+![NewLogo](https://github.com/Python3-Training/RF-Inspire/blob/main/GitRobotFramework.png)
+
 # Robot-Framework
 Our mission is to help testers better master the [Robot Framework](https://robotframework.org).
 
