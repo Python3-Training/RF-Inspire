@@ -16,7 +16,7 @@ Moving forward the plan is to use RF to test everything I love to geek over. Tar
 
 [Python Scripts](https://github.com/Python3-Training/RF-Inspire/tree/main/PythonExamples)
 
-[XMP/RPC](https://github.com/Python3-Training/RF-Inspire/tree/main/Robot101/0400_XML_RPC)
+[XML/RPC](https://github.com/Python3-Training/RF-Inspire/tree/main/Robot101/0400_XML_RPC)
 
 ## zSchedule
 Next we will be providing some inspirations for building / testing (and / or tormenting?) C, C++, C#, and VB.Net... 
