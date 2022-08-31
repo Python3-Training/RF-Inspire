@@ -1,10 +1,12 @@
-# Windows Test: Be sure that `gcc.exe` is installed & can be run from your CLI.
+# Be sure that `gcc` is installed & can be run from your CLI.
 | *** Settings ***
 | Documentation	| Basics: Building and testing a GCC Program
 | Library       | Process
 | Library	| BuiltIn
+| Library       | Platform
 | *** Variables ***
 | ${RUN_TYPE}   | 'BUILD' # What to run - either `BUILD` or `TEST.`
+| ${PLATFORM}   | platform.system()
 | *** Keywords ***
 | Build GCC	| [Documentation]     | Compile our GCC - file name hard-coded
 |               | [Arguments] 	      | ${PARAMS}
@@ -24,6 +26,12 @@
 |		| LOG TO CONSOLE      | \n\nTest Case #1...\n |
 |		| Run Keyword If      | ${RUN_TYPE} == 'BUILD'  | Build GCC | echo01.c 
 |		| Run Keyword If      | ${RUN_TYPE} != 'TEST'   | Fail
-|		| Test GCC	      | .\\a.exe | Got .\\a.exe
+|		| IF      	      | ${PLATFORM} == 'Windows' |
+|	        |  		      | Test GCC | .\\a.exe | Got .\\a.exe
+|		| ELSE		      |
+|	        |  		      | ${EXIT_CODE}    | Run Process | chmod | +777 | ./a.out
+|		|                     | Should Be Equal | ${EXIT_CODE.rc} | ${0} 
+|	        |  		      | Test GCC | ./a.out | Got ./a.out
+|		| END		      |
 |		| Run Keyword If      | ${RUN_TYPE} != 'DONE'   | Fail
 |		| LOG TO CONSOLE      | Testing Success! |
