@@ -8,7 +8,7 @@
 | ${RUN_TYPE}   | 'BUILD' # What to run - either `BUILD` or `TEST.`
 | ${PLATFORM}   | platform.system()
 | *** Keywords ***
-| Build GCC	| [Documentation]     | Compile our GCC - file name hard-coded
+| Build GCC	| [Documentation]     | Compile our GCC - file name parameter
 |               | [Arguments] 	      | ${PARAMS}
 |		| LOG TO CONSOLE      | Building GCC... |
 |		| ${EXIT_CODE}	      | Run Process	| gcc | ${PARAMS}
