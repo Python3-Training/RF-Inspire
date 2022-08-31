@@ -1,4 +1,4 @@
-# Be sure that both `java` and `javac` can be run from your CLI.
+# Windows Test: Be sure that `gcc.exe` is installed & can be run from your CLI.
 | *** Settings ***
 | Documentation	| Basics: Building and testing a GCC Program
 | Library       | Process
