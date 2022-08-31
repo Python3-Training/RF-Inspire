@@ -11,4 +11,4 @@ Be sure that GNU's C/C++ Compiler (`gcc`) is installed and located along your Sy
 If you are just getting started, the first thing you'll want to do is to review [the standard libraries](https://robotframework.org/robotframework/), certainly [the built ins](https://robotframework.org/robotframework/latest/libraries/BuiltIn.html).
 
 ## C/C++ Coding
-When you need to learn more about identifying & testing past, present, and future C/C++ code bases then you may also enjoy my [C/C++](https://www.udemy.com/course/gnu-cpp-1000/?referralCode=4499B8A33F74E9AAB54D)) educational opportunities.
+When you need to learn more about identifying & testing past, present, and future C/C++ code bases then you may also enjoy my [educational opportunities for C/C++](https://www.udemy.com/course/gnu-cpp-1000/?referralCode=4499B8A33F74E9AAB54D).
