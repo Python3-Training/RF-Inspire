@@ -21,7 +21,7 @@ Moving forward the plan is to use RF to test everything I love to geek over. Tar
 [XML/RPC](https://github.com/Python3-Training/RF-Inspire/tree/main/Robot101/0400_XML_RPC)
 
 ## zSchedule
-Next we will be providing some inspirations for building / testing (and / or tormenting?) C, C++, C#, and VB.Net... 
+Next we will be providing some inspirations for building / testing (and / or tormenting?) C#, and VB.Net... 
 
 Will be doing much the same for CORBA, IIOP, Sqlite, AWS & others thereafter... I might even toss-in a Docker / K8s folder of 'testpirations as well?
 
