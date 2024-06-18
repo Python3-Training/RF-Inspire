@@ -26,4 +26,6 @@ Next we will be providing some inspirations for building / testing (and / or tor
 Will be doing much the same for CORBA, IIOP, Sqlite, AWS & others thereafter... I might even toss-in a Docker / K8s folder of 'testpirations as well?
 
 ## zSupport?
+Online mentoring & [classes are available](https://takelessons.com/computer-skills/computer-programming-lessons/classes/robot-framework-seminar).
+
 If you want to support the effort, I seek no donations. Instead, simply feel free to purchase one of [my educational](https://www.udemy.com/user/randallnagy2/) or [printed](https://www.amazon.com/Randall-Nagy/e/B08ZJLH1VN?ref=sr_ntt_srch_lnk_1&qid=1660050704&sr=8-1) productions?
